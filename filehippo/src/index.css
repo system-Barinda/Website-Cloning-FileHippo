@@ -4,15 +4,32 @@
 
   background-size: cover;
   background-position: center;
-  animation: bgFade 3s infinite;
+  animation: bgFade 7s infinite;
 }
 
 /* Keyframes for multiple images */
 @keyframes bgFade {
-  0%   { background-image: url('../src/images/er3.jpeg'); }
-  25%  { background-image: url('../src/images/laptop1.jpeg'); }
-  50%  { background-image: url('../src/images/rufus-logo.png'); }
-  75%  { background-image: url('../src/images/materiol.jpeg'); }
-  100% { background-image: url('../src/images/adobe-reader-lite-logo.png'); }
+  0%   { background-image: url('../src/images/er3.jpeg'); 
+        transform: translateY(1%);
+        transition: 2 ease-in-out;
+     }
+  25%  { background-image: url('../src/images/laptop1.jpeg');
+          transform: translateY(-7%);
+        transition: 2 ease-in-out;
+        }
+  50%  { background-image: url('../src/images/rufus-logo.png');
+         transform: translateY(7%);
+         height: 30px;
+         transition: 2 ease-in-out;
+     }
+  75%  { background-image: url('../src/images/materiol.jpeg');
+        width: 100px;
+        background: greenyellow;
+
+      }
+  100% { background-image: url('../src/images/adobe-reader-lite-logo.png');
+        
+        transform: scale(1);
+       }
 }
 
