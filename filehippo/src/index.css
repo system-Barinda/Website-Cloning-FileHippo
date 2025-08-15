@@ -1,1 +1,18 @@
 @import "tailwindcss";
+
+.slideshow {
+
+  background-size: cover;
+  background-position: center;
+  animation: bgFade 3s infinite;
+}
+
+/* Keyframes for multiple images */
+@keyframes bgFade {
+  0%   { background-image: url('../src/images/er3.jpeg'); }
+  25%  { background-image: url('../src/images/laptop1.jpeg'); }
+  50%  { background-image: url('../src/images/rufus-logo.png'); }
+  75%  { background-image: url('../src/images/materiol.jpeg'); }
+  100% { background-image: url('../src/images/adobe-reader-lite-logo.png'); }
+}
+

@@ -1,6 +1,10 @@
 import { PiStarHalfBold } from "react-icons/pi";
 import { GrCheckboxSelected } from "react-icons/gr";
 import { HiHandThumbUp } from "react-icons/hi2";
+import loptop from '../images/laptop.jpeg'
+
+import { LiaArrowAltCircleLeftSolid } from "react-icons/lia";
+import { LiaArrowAltCircleRight } from "react-icons/lia";
 function MinHeader(){
     return(
 <>
@@ -21,7 +25,14 @@ function MinHeader(){
         </div>
 
 
-        <div className="box-container-sub border w-[45%] h-auto ml-auto m-2"></div>
+        <div className="box-container-sub  w-[55%] h-auto ml-auto m-2 flex justify-center">
+           <LiaArrowAltCircleLeftSolid className="h-20 w-20 self-center text-white" />
+
+            <div class="slideshow h-[85%] w-[90%]  mt-4">
+                     
+           </div>
+           <LiaArrowAltCircleRight className="h-20 w-20 self-center text-white" />
+        </div>
 
   </div>
 </>
