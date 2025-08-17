@@ -1,7 +1,8 @@
+import avastcleanuplogo from '../images/avast-cleanup-logo.png'
 function ContainerApp(){
     return (
         <>
-        <div className="container-box-App border h-200 w-full flex">
+        <div className="container-box-App border h-210 w-full flex">
              <div className="cotegories  m-1 h-auto w-1/2 flex flex-col">
                <h1 className="ml-8 font-bold text-2xl">Categories</h1>
                <div className="App-menu  h-[40%] mt-4">
@@ -40,7 +41,95 @@ function ContainerApp(){
                    </table>
                </div>
              </div>
-             <div className="popular border m-1 h-auto w-1/2"></div>
+             <div className="popular border m-1 h-auto w-1/2 flex flex-col">
+             <h1 className="ml-8 font-bold text-2xl">Popular</h1>
+             <div className="App-menu  h-auto mt-4 border w-[60%]">
+                  <table  className="w-[90%] border-none m-1">
+
+                    <tr >
+                        <td className="border-b-2 border-b-gray-200 h-10 m-1 cursor-pointer hover:underline flex gap-6  items-center"> <img src={avastcleanuplogo} className='h-8' /> <p>vast free Antivirus</p></td>
+                        
+                    </tr>
+
+                      <tr >
+                        <td className="border-b-2 border-b-gray-200 h-10 m-1 cursor-pointer hover:underline flex gap-6  items-center"> <img src={avastcleanuplogo} className='h-8' /> <p>Project IGI</p></td>
+                        
+                    </tr>
+
+                      <tr >
+                        <td className="border-b-2 border-b-gray-200 h-10 m-1 cursor-pointer hover:underline flex gap-6  items-center"> <img src={avastcleanuplogo} className='h-8' /> <p>VLS Media Players 64-bit</p></td>
+                        
+                    </tr>
+
+                      <tr >
+                        <td className="border-b-2 border-b-gray-200 h-10 m-1 cursor-pointer hover:underline flex gap-6  items-center"> <img src={avastcleanuplogo} className='h-8' /> <p>AVG Antivirus FREE</p></td>
+                        
+                    </tr>
+
+                      <tr >
+                        <td className="border-b-2 border-b-gray-200 h-10 m-1 cursor-pointer hover:underline flex gap-6  items-center"> <img src={avastcleanuplogo} className='h-8' /> <p>vast free Antivirus</p></td>
+                        
+                    </tr>
+
+                      <tr >
+                        <td className="border-b-2 border-b-gray-200 h-10 m-1 cursor-pointer hover:underline flex gap-6  items-center"> <img src={avastcleanuplogo} className='h-8' /> <p>2007 Microsoft Office Add-in</p></td>
+                        
+                    </tr>
+
+                      <tr >
+                        <td className="border-b-2 border-b-gray-200 h-10 m-1 cursor-pointer hover:underline flex gap-6  items-center"> <img src={avastcleanuplogo} className='h-8' /> <p>WinRar 64-bit</p></td>
+                        
+                    </tr>
+
+                      <tr >
+                        <td className="border-b-2 border-b-gray-200 h-10 m-1 cursor-pointer hover:underline flex gap-6  items-center"> <img src={avastcleanuplogo} className='h-8' /> <p>CCleaner</p></td>
+                        
+                    </tr>
+
+                      <tr >
+                        <td className="border-b-2 border-b-gray-200 h-10 m-1 cursor-pointer hover:underline flex gap-6  items-center"> <img src={avastcleanuplogo} className='h-8' /> <p>Google Chrome</p></td>
+                        
+                    </tr>
+                    
+                      <tr >
+                        <td className="border-b-2 border-b-gray-200 h-10 m-1 cursor-pointer hover:underline flex gap-6  items-center"> <img src={avastcleanuplogo} className='h-8' /> <p>Adobe Acrobat Reader DC</p></td>
+                        
+                    </tr>
+
+                      <tr >
+                        <td className="border-b-2 border-b-gray-200 h-10 m-1 cursor-pointer hover:underline flex gap-6  items-center"> <img src={avastcleanuplogo} className='h-8' /> <p>Avast Secure Browser For Windows </p></td>
+                        
+                    </tr>
+
+                      <tr >
+                        <td className="border-b-2 border-b-gray-200 h-10 m-1 cursor-pointer hover:underline flex gap-6  items-center"> <img src={avastcleanuplogo} className='h-8' /> <p>AnyDesk</p></td>
+                        
+                    </tr>
+
+                      <tr >
+                        <td className="border-b-2 border-b-gray-200 h-10 m-1 cursor-pointer hover:underline flex gap-6  items-center"> <img src={avastcleanuplogo} className='h-8' /> <p>Adobe Reader</p></td>
+                        
+                    </tr>
+
+                     <tr >
+                        <td className="border-b-2 border-b-gray-200 h-10 m-1 cursor-pointer hover:underline flex gap-6  items-center"> <img src={avastcleanuplogo} className='h-8' /> <p>AVG Secure Browser</p></td>
+                        
+                    </tr>
+
+                     <tr >
+                        <td className="border-b-2 border-b-gray-200 h-10 m-1 cursor-pointer hover:underline flex gap-6  items-center"> <img src={avastcleanuplogo} className='h-8' /> <p>Avast Cleanup</p></td>
+                        
+                    </tr>
+
+                     <tr >
+                        <td className="border-b-2 border-b-gray-200 h-10 m-1 cursor-pointer hover:underline flex gap-6  items-center"> <img src={avastcleanuplogo} className='h-8' /> <p>AVG PC  TuneUp</p></td>
+                        
+                    </tr>
+                 
+                   </table>
+             </div>
+
+             </div>
         </div>
         </>
     );
