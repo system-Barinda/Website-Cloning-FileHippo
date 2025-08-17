@@ -1,4 +1,6 @@
 import avastcleanuplogo from '../images/avast-cleanup-logo.png'
+import projectigilogo from '../images/project-igi-logo.jpeg'
+import vlc64bit from '../images/vlc-64-bit.png'
 function ContainerApp(){
     return (
         <>
@@ -41,9 +43,9 @@ function ContainerApp(){
                    </table>
                </div>
              </div>
-             <div className="popular border m-1 h-auto w-1/2 flex flex-col">
+             <div className="popular  m-1 h-auto w-1/2 flex flex-col">
              <h1 className="ml-8 font-bold text-2xl">Popular</h1>
-             <div className="App-menu  h-auto mt-4 border w-[60%]">
+             <div className="App-menu  h-auto mt-4  w-[60%]">
                   <table  className="w-[90%] border-none m-1">
 
                     <tr >
@@ -52,12 +54,12 @@ function ContainerApp(){
                     </tr>
 
                       <tr >
-                        <td className="border-b-2 border-b-gray-200 h-10 m-1 cursor-pointer hover:underline flex gap-6  items-center"> <img src={avastcleanuplogo} className='h-8' /> <p>Project IGI</p></td>
+                        <td className="border-b-2 border-b-gray-200 h-10 m-1 cursor-pointer hover:underline flex gap-6  items-center"> <img src={projectigilogo} className='h-8' /> <p>Project IGI</p></td>
                         
                     </tr>
 
                       <tr >
-                        <td className="border-b-2 border-b-gray-200 h-10 m-1 cursor-pointer hover:underline flex gap-6  items-center"> <img src={avastcleanuplogo} className='h-8' /> <p>VLS Media Players 64-bit</p></td>
+                        <td className="border-b-2 border-b-gray-200 h-10 m-1 cursor-pointer hover:underline flex gap-6  items-center"> <img src={vlc64bit} className='h-8' /> <p>VLS Media Players 64-bit</p></td>
                         
                     </tr>
 
