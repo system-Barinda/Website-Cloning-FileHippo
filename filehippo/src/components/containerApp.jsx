@@ -1,6 +1,10 @@
 import avastcleanuplogo from '../images/avast-cleanup-logo.png'
 import projectigilogo from '../images/project-igi-logo.jpeg'
 import vlc64bit from '../images/vlc-64-bit.png'
+import chrome from '../images/chrome.png'
+import adobeacrobate from '../images/adobe-acrobate.png'
+import avgpctuneup from '../images/avg-pc-tuneup.jpeg'
+
 function ContainerApp(){
     return (
         <>
@@ -64,7 +68,7 @@ function ContainerApp(){
                     </tr>
 
                       <tr >
-                        <td className="border-b-2 border-b-gray-200 h-10 m-1 cursor-pointer hover:underline flex gap-6  items-center"> <img src={avastcleanuplogo} className='h-8' /> <p>AVG Antivirus FREE</p></td>
+                        <td className="border-b-2 border-b-gray-200 h-10 m-1 cursor-pointer hover:underline flex gap-6  items-center"> <img src={avgpctuneup} className='h-8' /> <p>AVG Antivirus FREE</p></td>
                         
                     </tr>
 
@@ -89,12 +93,12 @@ function ContainerApp(){
                     </tr>
 
                       <tr >
-                        <td className="border-b-2 border-b-gray-200 h-10 m-1 cursor-pointer hover:underline flex gap-6  items-center"> <img src={avastcleanuplogo} className='h-8' /> <p>Google Chrome</p></td>
+                        <td className="border-b-2 border-b-gray-200 h-10 m-1 cursor-pointer hover:underline flex gap-6  items-center"> <img src={chrome} className='h-8' /> <p>Google Chrome</p></td>
                         
                     </tr>
                     
                       <tr >
-                        <td className="border-b-2 border-b-gray-200 h-10 m-1 cursor-pointer hover:underline flex gap-6  items-center"> <img src={avastcleanuplogo} className='h-8' /> <p>Adobe Acrobat Reader DC</p></td>
+                        <td className="border-b-2 border-b-gray-200 h-10 m-1 cursor-pointer hover:underline flex gap-6  items-center"> <img src={adobeacrobate} className='h-8' /> <p>Adobe Acrobat Reader DC</p></td>
                         
                     </tr>
 
