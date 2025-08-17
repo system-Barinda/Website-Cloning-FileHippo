@@ -77,37 +77,37 @@ function ContainerApp(){
                     </tr>
 
                       <tr >
-                        <td className="border-b-2 border-b-gray-200 h-10 m-1 cursor-pointer hover:underline flex gap-6  items-center"> <img src={avastcleanuplogo} className='h-8' /> <p>vast free Antivirus</p></td>
+                        <td className="border-b-2 border-b-gray-200 h-10 m-1 cursor-pointer hover:underline flex gap-6  items-center"> <img src={avastcleanuplogo} className='h-8' /> <p>WinRar 64-bit</p></td>
                         
                     </tr>
 
                       <tr >
-                        <td className="border-b-2 border-b-gray-200 h-10 m-1 cursor-pointer hover:underline flex gap-6  items-center"> <img src={avastcleanuplogo} className='h-8' /> <p>vast free Antivirus</p></td>
+                        <td className="border-b-2 border-b-gray-200 h-10 m-1 cursor-pointer hover:underline flex gap-6  items-center"> <img src={avastcleanuplogo} className='h-8' /> <p>CCleaner</p></td>
                         
                     </tr>
 
                       <tr >
-                        <td className="border-b-2 border-b-gray-200 h-10 m-1 cursor-pointer hover:underline flex gap-6  items-center"> <img src={avastcleanuplogo} className='h-8' /> <p>vast free Antivirus</p></td>
+                        <td className="border-b-2 border-b-gray-200 h-10 m-1 cursor-pointer hover:underline flex gap-6  items-center"> <img src={avastcleanuplogo} className='h-8' /> <p>Google Chrome</p></td>
                         
                     </tr>
                     
                       <tr >
-                        <td className="border-b-2 border-b-gray-200 h-10 m-1 cursor-pointer hover:underline flex gap-6  items-center"> <img src={avastcleanuplogo} className='h-8' /> <p>vast free Antivirus</p></td>
+                        <td className="border-b-2 border-b-gray-200 h-10 m-1 cursor-pointer hover:underline flex gap-6  items-center"> <img src={avastcleanuplogo} className='h-8' /> <p>Adobe Acrobat Reader DC</p></td>
                         
                     </tr>
 
                       <tr >
-                        <td className="border-b-2 border-b-gray-200 h-10 m-1 cursor-pointer hover:underline flex gap-6  items-center"> <img src={avastcleanuplogo} className='h-8' /> <p>vast free Antivirus</p></td>
+                        <td className="border-b-2 border-b-gray-200 h-10 m-1 cursor-pointer hover:underline flex gap-6  items-center"> <img src={avastcleanuplogo} className='h-8' /> <p>Avast Secure Browser For Windows </p></td>
                         
                     </tr>
 
                       <tr >
-                        <td className="border-b-2 border-b-gray-200 h-10 m-1 cursor-pointer hover:underline flex gap-6  items-center"> <img src={avastcleanuplogo} className='h-8' /> <p>vast free Antivirus</p></td>
+                        <td className="border-b-2 border-b-gray-200 h-10 m-1 cursor-pointer hover:underline flex gap-6  items-center"> <img src={avastcleanuplogo} className='h-8' /> <p>AnyDesk</p></td>
                         
                     </tr>
 
                       <tr >
-                        <td className="border-b-2 border-b-gray-200 h-10 m-1 cursor-pointer hover:underline flex gap-6  items-center"> <img src={avastcleanuplogo} className='h-8' /> <p>vast free Antivirus</p></td>
+                        <td className="border-b-2 border-b-gray-200 h-10 m-1 cursor-pointer hover:underline flex gap-6  items-center"> <img src={avastcleanuplogo} className='h-8' /> <p>Adobe Reader</p></td>
                         
                     </tr>
                  
