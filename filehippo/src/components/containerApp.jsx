@@ -40,7 +40,13 @@ function ContainerApp(){
                    </table>
                </div>
              </div>
-             <div className="popular border m-1 h-auto w-1/2"></div>
+             <div className="popular border m-1 h-auto w-1/2 flex flex-col">
+             <h1 className="ml-8 font-bold text-2xl">Popular</h1>
+             <div className="App-menu  h-[60%] mt-4 border">
+
+             </div>
+
+             </div>
         </div>
         </>
     );
