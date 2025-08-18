@@ -7,10 +7,10 @@ function SoftWareBanner(){
 
     return(
         <>
-        <div className="border h-450 w-full flex">
-           <div className="soft h-auto w-[70%] border m-1 flex flex-wrap">
+        <div className="border h-330 w-full flex">
+           <div className="soft h-auto w-[70%] border m-1 flex flex-wrap gap-1 content-center">
              
-                       <div className="item h-100 w-100 border flex flex-col gap-2 m-1">
+                       <div className="item h-100 w-65 border flex flex-col gap-2 m-1">
                           <img src={laptop} className='h-[60%] w-auto'/>
                           <p className=''>
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta repellat 
@@ -19,7 +19,7 @@ function SoftWareBanner(){
                           </p>
                        </div>
 
-                       <div className="item h-100 w-100 border flex flex-col gap-2 m-1">
+                       <div className="item h-100 w-65 border flex flex-col gap-2 m-1">
                           <img src={july} className='h-[60%] w-auto'/>
                           <p className=''>
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta repellat 
@@ -28,7 +28,7 @@ function SoftWareBanner(){
                           </p>
                        </div>
 
-                       <div className="item h-100 w-100 border flex flex-col gap-2 m-1">
+                       <div className="item h-100 w-65 border flex flex-col gap-2 m-1">
                           <img src={er} className='h-[60%] w-auto'/>
                           <p className=''>
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta repellat 
@@ -37,7 +37,7 @@ function SoftWareBanner(){
                           </p>
                        </div>
 
-                       <div className="item h-100 w-100 border flex flex-col gap-2 m-1">
+                       <div className="item h-100 w-65 border flex flex-col gap-2 m-1">
                           <img src={july2} className='h-[60%] w-auto'/>
                           <p className=''>
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta repellat 
@@ -46,7 +46,7 @@ function SoftWareBanner(){
                           </p>
                        </div>
 
-                       <div className="item h-100 w-100 border flex flex-col gap-2 m-1">
+                       <div className="item h-100 w-65 border flex flex-col gap-2 m-1">
                           <img src={july3} className='h-[60%] w-auto'/>
                           <p className=''>
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta repellat 
@@ -55,7 +55,7 @@ function SoftWareBanner(){
                           </p>
                        </div>
 
-                       <div className="item h-100 w-100 border flex flex-col gap-2 m-1">
+                       <div className="item h-100 w-65 border flex flex-col gap-2 m-1">
                           <img src={laptop} className='h-[60%] w-auto'/>
                           <p className=''>
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta repellat 
@@ -64,7 +64,7 @@ function SoftWareBanner(){
                           </p>
                        </div>
 
-                       <div className="item h-100 w-100 border flex flex-col gap-2 m-1">
+                       <div className="item h-100 w-65 border flex flex-col gap-2 m-1">
                           <img src={laptop} className='h-[60%] w-auto'/>
                           <p className=''>
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta repellat 
@@ -73,7 +73,7 @@ function SoftWareBanner(){
                           </p>
                        </div>
 
-                       <div className="item h-100 w-100 border flex flex-col gap-2 m-1">
+                       <div className="item h-100 w-65 border flex flex-col gap-2 m-1">
                           <img src={laptop} className='h-[60%] w-auto'/>
                           <p className=''>
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta repellat 
