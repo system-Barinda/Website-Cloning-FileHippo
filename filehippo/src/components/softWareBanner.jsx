@@ -1,4 +1,8 @@
 import laptop from '../images/laptop.jpeg'
+import july from '../images/july.jpeg'
+import july2 from '../images/july2.jpeg'
+import july3 from '../images/july3.jpeg'
+import er from '../images/er3.jpeg'
 function SoftWareBanner(){
 
     return(
@@ -16,7 +20,7 @@ function SoftWareBanner(){
                        </div>
 
                        <div className="item h-100 w-100 border flex flex-col gap-2 m-1">
-                          <img src={laptop} className='h-[60%] w-auto'/>
+                          <img src={july} className='h-[60%] w-auto'/>
                           <p className=''>
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta repellat 
                             nisi nostrum dolorum quidem vero veritatis consequatur porro possimus dolores voluptas
@@ -25,7 +29,7 @@ function SoftWareBanner(){
                        </div>
 
                        <div className="item h-100 w-100 border flex flex-col gap-2 m-1">
-                          <img src={laptop} className='h-[60%] w-auto'/>
+                          <img src={er} className='h-[60%] w-auto'/>
                           <p className=''>
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta repellat 
                             nisi nostrum dolorum quidem vero veritatis consequatur porro possimus dolores voluptas
@@ -34,7 +38,7 @@ function SoftWareBanner(){
                        </div>
 
                        <div className="item h-100 w-100 border flex flex-col gap-2 m-1">
-                          <img src={laptop} className='h-[60%] w-auto'/>
+                          <img src={july2} className='h-[60%] w-auto'/>
                           <p className=''>
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta repellat 
                             nisi nostrum dolorum quidem vero veritatis consequatur porro possimus dolores voluptas
@@ -43,7 +47,7 @@ function SoftWareBanner(){
                        </div>
 
                        <div className="item h-100 w-100 border flex flex-col gap-2 m-1">
-                          <img src={laptop} className='h-[60%] w-auto'/>
+                          <img src={july3} className='h-[60%] w-auto'/>
                           <p className=''>
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta repellat 
                             nisi nostrum dolorum quidem vero veritatis consequatur porro possimus dolores voluptas
