@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import HeaderMenu from './components/navaBar'
 import MinHeader from './components/minHeader'
 import ContainerApp from './components/containerApp'
+import SoftWareBanner from './components/softWareBanner'
 
 function App() {
   
@@ -18,6 +19,7 @@ function App() {
          <div className="right-time  w-[30%] grow h-auto content-center text-center"><p>43,490</p><p>Program versions listed</p></div>
       </div>
       <ContainerApp />
+      <SoftWareBanner />
     </>
   )
 }
