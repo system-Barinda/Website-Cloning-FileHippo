@@ -7,7 +7,7 @@ function SoftWareBanner(){
 
     return(
         <>
-        <div className="border h-330 w-full flex">
+        <div className="border h-330 w-full flex ">
            <div className="soft h-auto w-[70%] border m-1 flex flex-wrap gap-1 content-center">
              
                        <div className="item h-100 w-65 border flex flex-col gap-2 m-1">
@@ -82,6 +82,13 @@ function SoftWareBanner(){
                           </p>
                        </div>
 
+           </div>
+           <div className="announce border m-1 grow flex flex-col items-center">
+            <div className="app-info border m-1 h-[20%] w-[90%]"> </div>
+            <div className="app-info border m-1 h-[20%] w-[90%]"> </div>
+            <div className="app-info border m-1 h-[20%] w-[90%]"> </div>
+            <div className="app-info border m-1 h-[20%] w-[90%]"> </div>
+            <div className="app-info border m-1 h-[20%] w-[90%]"> </div>
            </div>
         </div>
         </>
