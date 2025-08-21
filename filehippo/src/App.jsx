@@ -6,6 +6,7 @@ import MinHeader from './components/minHeader'
 import ContainerApp from './components/containerApp'
 import SoftWareBanner from './components/softWareBanner'
 import LastUpdate from './components/lastUpdate'
+import Footer from './components/footer'
 
 function App() {
   
@@ -22,6 +23,7 @@ function App() {
       <ContainerApp />
       <SoftWareBanner />
       <LastUpdate />
+      <Footer />
     </>
   )
 }
