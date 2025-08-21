@@ -83,12 +83,21 @@ function SoftWareBanner(){
                        </div>
 
            </div>
-           <div className="announce border m-1 grow flex flex-col items-center">
-            <div className="app-info border m-1 h-[20%] w-[90%]"> </div>
-            <div className="app-info border m-1 h-[20%] w-[90%]"> </div>
-            <div className="app-info border m-1 h-[20%] w-[90%]"> </div>
-            <div className="app-info border m-1 h-[20%] w-[90%]"> </div>
-            <div className="app-info border m-1 h-[20%] w-[90%]"> </div>
+           <div className="announce  m-1  flex flex-col items-center h-auto w-90">
+            
+            <div className="app-info border m-1 h-[20%] w-[90%]"> 
+               <img src={laptop} alt="" srcset="" className='h-[100%] w-[100%]' />
+            </div>
+            <div className="app-info border m-1 h-[20%] w-[90%]"> 
+               <img src={laptop} alt="" srcset="" className='h-[100%] w-[100%]' />
+            </div>
+            <div className="app-info border m-1 h-[20%] w-[90%]"> 
+               <img src={laptop} alt="" srcset="" className='h-[100%] w-[100%]' />
+            </div>
+            <div className="app-info border m-1 h-[20%] w-[90%]"> 
+               <img src={laptop} alt="" srcset="" className='h-[100%] w-[100%]' />
+            </div>
+            
            </div>
         </div>
         </>
