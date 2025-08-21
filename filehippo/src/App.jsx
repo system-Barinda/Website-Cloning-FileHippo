@@ -5,6 +5,7 @@ import HeaderMenu from './components/navaBar'
 import MinHeader from './components/minHeader'
 import ContainerApp from './components/containerApp'
 import SoftWareBanner from './components/softWareBanner'
+import LastUpdate from './components/lastUpdate'
 
 function App() {
   
@@ -20,6 +21,7 @@ function App() {
       </div>
       <ContainerApp />
       <SoftWareBanner />
+      <LastUpdate />
     </>
   )
 }
